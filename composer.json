@@ -1,0 +1,23 @@
+{
+    "name": "kevinheyo/allpay-5-laravel",
+    "type": "library",
+    "description": "Allpay Service Provider for Laravel 5.",
+    "keywords": ["laravel","allpay"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kun-Wei, Lin",
+            "email": "kevin80331@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+	"autoload": {
+		"classmap": [
+            "src/"
+		],
+        "psr-4": { 
+            "Allpay\\": "src/"
+        }
+	}
+    
+}
